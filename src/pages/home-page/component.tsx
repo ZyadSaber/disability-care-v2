@@ -1,10 +1,11 @@
-import { memo } from "react";
+import { memo, } from "react";
 
 const HomePage = memo(() => {
+
     return (
-        <>
+        <div>
             home
-        </>
+        </div>
     )
 })
 
