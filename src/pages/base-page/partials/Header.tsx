@@ -8,12 +8,12 @@ const Header = memo(() => {
             <Link to="/">
                 <h2 className="text-white font-medium text-2xl">Max <span className="text-yellow-400">Care</span></h2>
             </Link>
-            {/* <div className="flex gap-5 text-white">
+            <div className="gap-5 text-white hidden md:flex">
                 <Link to="#" className="hover:text-red-500">Home</Link>
                 <Link to="#" className="hover:text-red-500">Book</Link>
                 <Link to="#" className="hover:text-red-500">Discharges</Link>
                 <Link to="#" className="hover:text-red-500">About Us</Link>
-            </div> */}
+            </div>
             <div className="w-8 flex-wrap justify-end flex md:hidden">
                 <span className="bg-white mb-1.5 h-0.5 w-full"></span>
                 <span className="bg-white mb-1.5 h-0.5 w-full"></span>
