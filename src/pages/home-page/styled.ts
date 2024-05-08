@@ -30,18 +30,3 @@ export const SliderWrapper = styled.div<{
   transition: transform 0.5s ease;
   transform: translateX(${({ translateX }) => translateX}px);
 `;
-
-export const StyledSliderButton = styled.div`
-  cursor: pointer;
-  color: "#eeee";
-  align-content: center;
-  font-size: 45px;
-  width: 63px;
-  text-align: center;
-  transition: background 0.5s ease;
-  font-style: normal;
-
-  &:hover {
-    background: rgba(28, 28, 28, 0.6);
-  }
-`;

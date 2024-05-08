@@ -4,7 +4,6 @@ import {
     SliderContainer,
     SliderWrapper,
     ButtonsWrapper,
-    StyledSliderButton,
 } from "./styled";
 
 const images = [slider1, slider2, slider3, slider4];
@@ -70,12 +69,12 @@ const HomePage = memo(() => {
                 ))}
             </SliderWrapper>
             <ButtonsWrapper>
-                <StyledSliderButton onClick={handleArrowClick("back")}>
+                <div className="cursor-pointer text-black content-center text-5xl w-16 text-center transition not-italic" onClick={handleArrowClick("back")}>
                     &#10094;
-                </StyledSliderButton>
-                <StyledSliderButton onClick={handleArrowClick("next")}>
+                </div>
+                <div className="cursor-pointer text-black content-center text-5xl w-16 text-center transition not-italic" onClick={handleArrowClick("next")}>
                     &#10095;
-                </StyledSliderButton>
+                </div>
             </ButtonsWrapper>
         </SliderContainer>
     );
