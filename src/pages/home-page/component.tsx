@@ -80,7 +80,7 @@ const HomePage = memo(() => {
                 </ButtonsWrapper>
             </SliderContainer>
 
-            <img src={services} alt="" className="bg-blue-400" />
+            <img src={services} alt="" className="bg-blue-800" />
 
             <h4 className="w-full text-center pt-5 px-5 md:px-32 text-3xl font-normal">Our Services</h4>
 
