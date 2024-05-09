@@ -79,21 +79,21 @@ const HomePage = memo(() => {
                     </div>
                 </ButtonsWrapper>
             </SliderContainer>
-
+            <h4 className="w-full text-center pt-5 px-5 md:px-32 text-3xl font-normal">Our Services</h4>
             <div className=" flex gap-2 py-5 px-5 md:px-32 flex-col md:flex-row">
-                <div className="border-2 w-full md:w-4/12 border-blue-300 rounded-lg flex flex-col justify-center items-center p-5 gap-3">
+                <div className=" w-full md:w-4/12 flex flex-col justify-center items-center p-5 gap-3">
                     <img src={van} alt="" className="max-h-52" />
                     <h4 className="text-2xl font-semibold">Ambulatory Transportation</h4>
                     <p className="font-light">With our ambulatory transportation, you can confidently move toward your desired destinations. Our reliable and courteous drivers offer assistance and support, ensuring a seamless journey for those who can walk independently but require transportation to medical facilities, events, or any essential appointments. </p>
                     <Link to="" className="px-6 py-2 bg-blue-700 hover:bg-blue-400 transition-all border rounded-md text-1xl font-medium text-white">Read More</Link>
                 </div>
-                <div className="border-2 w-full md:w-4/12 border-blue-300 rounded-lg flex flex-col justify-center items-center p-5 gap-3">
+                <div className=" w-full md:w-4/12 flex flex-col justify-center items-center p-5 gap-3">
                     <img src={wheelChair} alt="" className="max-h-52" />
                     <h4 className="text-2xl font-semibold">Ambulatory Transportation</h4>
                     <p className="font-light">With our ambulatory transportation, you can confidently move toward your desired destinations. Our reliable and courteous drivers offer assistance and support, ensuring a seamless journey for those who can walk independently but require transportation to medical facilities, events, or any essential appointments. </p>
                     <Link to="" className="px-6 py-2 bg-blue-700 hover:bg-blue-400 transition-all border rounded-md text-1xl font-medium text-white">Read More</Link>
                 </div>
-                <div className="border-2 w-full md:w-4/12 border-blue-300 rounded-lg flex flex-col justify-center items-center p-5 gap-3">
+                <div className=" w-full md:w-4/12 flex flex-col justify-center items-center p-5 gap-3">
                     <img src={arrows} alt="" className="max-h-52" />
                     <h4 className="text-2xl font-semibold">Ambulatory Transportation</h4>
                     <p className="font-light">With our ambulatory transportation, you can confidently move toward your desired destinations. Our reliable and courteous drivers offer assistance and support, ensuring a seamless journey for those who can walk independently but require transportation to medical facilities, events, or any essential appointments. </p>
