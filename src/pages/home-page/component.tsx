@@ -1,6 +1,6 @@
 import { memo, useState, useLayoutEffect, useRef, useCallback } from "react";
 import { Link } from "react-router-dom"
-import { slider1, slider2, slider3, slider4, van, wheelChair, arrows } from "../../images";
+import { slider1, slider2, slider3, slider4, van, wheelChair, arrows, services } from "../../images";
 import {
     SliderContainer,
     SliderWrapper,
@@ -79,7 +79,11 @@ const HomePage = memo(() => {
                     </div>
                 </ButtonsWrapper>
             </SliderContainer>
+
+            <img src={services} alt="" className="bg-blue-400" />
+
             <h4 className="w-full text-center pt-5 px-5 md:px-32 text-3xl font-normal">Our Services</h4>
+
             <div className=" flex gap-2 py-5 px-5 md:px-32 flex-col md:flex-row">
                 <div className=" w-full md:w-4/12 flex flex-col justify-center items-center p-5 gap-3">
                     <img src={van} alt="" className="max-h-52" />

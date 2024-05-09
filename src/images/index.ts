@@ -5,3 +5,4 @@ export { default as slider4 } from "./imgs/slider4.jpg";
 export { default as van } from "./imgs/van.jpg";
 export { default as wheelChair } from "./imgs/people-with-wheelchair.jpg";
 export { default as arrows } from "./imgs/arrows.jpg";
+export { default as services } from "./webp/services.webp";
