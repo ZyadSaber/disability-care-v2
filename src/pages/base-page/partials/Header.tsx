@@ -27,6 +27,9 @@ const Header = memo(() => {
             <div className="gap-5 text-white hidden md:flex">
                 {menuItems}
             </div>
+            <div className="text-white hidden md:block font-bold text-lg">
+                Trip Charge Estimator
+            </div>
             <div className="w-8 flex-wrap justify-end flex md:hidden" onClick={handleOpen}>
                 <span className="bg-white mb-1.5 h-0.5 w-full"></span>
                 <span className="bg-white mb-1.5 h-0.5 w-full"></span>
