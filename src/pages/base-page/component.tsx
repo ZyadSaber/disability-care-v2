@@ -1,6 +1,7 @@
 import { memo, useState, useEffect } from "react";
 import { Outlet } from "react-router-dom"
 import Header from "./partials/Header"
+import Footer from "./partials/Footer"
 
 const BasePage = memo(() => {
     const [lastScroll, setLastScroll] = useState(0);
@@ -34,6 +35,7 @@ const BasePage = memo(() => {
             <div className="mt-16">
                 <Outlet />
             </div>
+            <Footer />
         </div>
     )
 })

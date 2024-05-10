@@ -6,3 +6,8 @@ export { default as van } from "./imgs/van.jpg";
 export { default as wheelChair } from "./imgs/people-with-wheelchair.jpg";
 export { default as arrows } from "./imgs/arrows.jpg";
 export { default as services } from "./webp/services.webp";
+export { default as p1 } from "./webp/p1.webp";
+export { default as p2 } from "./webp/p2.webp";
+export { default as p3 } from "./webp/p3.webp";
+export { default as step1 } from "./png/step1.png";
+export { default as step2 } from "./png/step2.png";
