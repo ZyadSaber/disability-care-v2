@@ -10,12 +10,12 @@ const Header = memo(() => {
 
     const menuItems = useMemo(() => (
         <>
-            <Link to="#" className="hover:text-red-500">Home</Link>
+            <Link to="/" className="hover:text-red-500">Home</Link>
             <Link to="#" className="hover:text-red-500">About Us</Link>
             <Link to="#" className="hover:text-red-500">Services</Link>
             <Link to="#" className="hover:text-red-500">Book A Trip</Link>
             <Link to="#" className="hover:text-red-500">Careers</Link>
-            <Link to="#" className="hover:text-red-500">Contact Us</Link>
+            <Link to="contact-us" className="hover:text-red-500">Contact Us</Link>
         </>
     ), [])
 
