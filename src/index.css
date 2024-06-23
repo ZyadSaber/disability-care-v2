@@ -39,3 +39,13 @@
   background: #007dff;
   border-radius: 10px;
 }
+
+@layer utilities {
+  .paused {
+    animation-play-state: paused;
+  }
+
+  .image-hover {
+    filter: grayscale(100%);
+  }
+}

@@ -1,9 +1,9 @@
 import { memo } from "react";
 
 const Footer = memo(() => (
-    <h4 className="text-center py-3 text-blue-800 bg-yellow-400 font-normal">
+    <footer className="text-center py-3 text-white bg-blue-300 font-normal h-12 flex justify-center items-center">
         © 2024 Max Care. All Rights Reserved. by Zyad Ahmed.
-    </h4>
+    </footer>
 ))
 
 export default Footer

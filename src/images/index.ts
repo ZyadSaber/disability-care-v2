@@ -1,14 +1,7 @@
-export { default as slider1 } from "./imgs/slider1.jpg";
-export { default as slider2 } from "./imgs/slider2.jpg";
-export { default as slider3 } from "./imgs/slider3.jpg";
-export { default as slider4 } from "./imgs/slider4.jpg";
+export { default as slider1 } from "./imgs/slider1.png";
+export { default as slider2 } from "./imgs/slider2.png";
+export { default as slider3 } from "./imgs/slider3.png";
 export { default as van } from "./imgs/van.jpg";
 export { default as wheelChair } from "./imgs/people-with-wheelchair.jpg";
 export { default as Stretcher } from "./imgs/Stretcher.png";
-export { default as services } from "./webp/services.webp";
-export { default as p1 } from "./webp/p1.webp";
-export { default as p2 } from "./webp/p2.webp";
-export { default as p3 } from "./webp/p3.webp";
-export { default as step1 } from "./png/step1.png";
-export { default as step2 } from "./png/step2.png";
 export { default as logo } from "./imgs/logo.png";
