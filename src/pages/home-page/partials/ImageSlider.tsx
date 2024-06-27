@@ -48,6 +48,10 @@ const ImageSlider = () => {
                         className={`absolute inset-0 opacity-0 transition-opacity ease-in-out duration-700 ${currentImage === index ? 'opacity-100 z-10' : ''
                             }`}
                     >
+                        <div className='p-3 md:p-20 z-10 bg-blue-800/70 flex justify-center items-start flex-col text-white absolute top-1/3 left-3 md:left-20 md:w-96 rounded'>
+                            <h2 className='font-semibold text-lg md:text-2xl'>Cover for the image</h2>
+                            <p>test</p>
+                        </div>
                         <img src={image} alt={`Image ${index + 1}`} className="w-full h-full object-cover" />
                     </div>
                 ))}

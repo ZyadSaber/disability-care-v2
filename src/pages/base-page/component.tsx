@@ -30,7 +30,7 @@ const BasePage = memo(() => {
         return () => window.removeEventListener("scroll", handleScroll);
     }, [lastScroll, scrollClass]);
     return (
-        <div className={`pt-16 ${scrollClass}`}>
+        <div className={`pt-32 ${scrollClass}`}>
             <Header />
             <Outlet />
             <Footer />

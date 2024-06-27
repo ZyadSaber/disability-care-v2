@@ -4,23 +4,23 @@ export const web_links = [
     title: "Home",
   },
   {
-    link: "/about-us",
-    title: "About Us",
-  },
-  {
     link: "/services",
     title: "Services",
+  },
+  {
+    link: "/about-us",
+    title: "About Us",
   },
   {
     link: "/booking",
     title: "Book A Trip",
   },
   {
-    link: "/careers",
-    title: "Careers",
-  },
-  {
     link: "/faqs",
     title: "FAQS",
+  },
+  {
+    link: "/contact-us",
+    title: "Contact Us",
   },
 ];

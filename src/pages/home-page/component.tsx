@@ -8,6 +8,12 @@ const HomePage = memo(() => (
 
         <ImageSlider />
 
+        <div className="pt-10 px-5 md:px-32">
+            <div className="flex justify-center items-center py-20 px-5 md:px-32 rounded bg-yellow-400 text-2xl">
+                Trip Estimate coming soon
+            </div>
+        </div>
+
         <h4 className="w-full text-center pt-10 px-5 md:px-32 text-5xl font-normal">Our Services</h4>
 
         <div className=" flex gap-2 py-5 px-5 md:px-32 flex-col md:flex-row">
@@ -26,19 +32,13 @@ const HomePage = memo(() => (
         </div>
 
         <div className="flex flex-col pt-5 px-5 md:px-32 justify-center items-center">
-            <h4 className="w-full text-center pt-5 py-5 md:px-32 text-5xl font-normal">Our Commitment to Quality and Safety</h4>
+            <h4 className="w-full text-center pt-5 py-5 md:px-32 text-5xl font-normal">About Us</h4>
             <div className="flex justify-center items-center gap-10 flex-col md:flex-row">
                 {QualityAndSafety.map((text, index) => (
                     <div className="flex h-[250px] justify-center items-center w-full md:w-2/3">
                         <p className="text-lg text-center hover:shadow-lg rounded transition items-center px-20 py-10" key={index}>{text}</p>
                     </div>
                 ))}
-            </div>
-        </div>
-
-        <div className="py-20 px-5 md:px-32">
-            <div className="flex justify-center items-center py-20 px-5 md:px-32 rounded bg-yellow-400 text-2xl">
-                Trip Estimate coming soon
             </div>
         </div>
     </>
